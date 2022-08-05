@@ -29,8 +29,8 @@ public class ProjectController {
 	// get all projects
 	@GetMapping("/projects")
 	public List<Project> getAllProjects(){
-		return projectRepoistry.findAll();
-	}		
+		return projectRepositry.findAll();
+	}	
 	
 	// create project rest api
 	@PostMapping("/projects")
